@@ -47,19 +47,22 @@ class _DetailScreenState extends State<DetailScreen> {
             ),
                   
            ),
-            Row(
-              children: [
-                Expanded(
-                  child: Text(
-                    widget.galleryItem.imgDescription,
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                      color: Colors.white
-          ),
-         ),
-        ),
-       ],
-      ),
+            Padding(
+              padding: const EdgeInsets.all(4),
+              child: Row(
+                children: [
+                  Expanded(
+                    child: Text(
+                      widget.galleryItem.imgDescription,
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        color: Colors.white
+                        ),
+                       ),
+                      ),
+                     ],
+                    ),
+            ),
      ],
     ),
    ),
