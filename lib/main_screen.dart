@@ -29,9 +29,9 @@ class _MainScreenState extends State<MainScreen> {
           style: TextStyle(
             color: Colors.white,
             fontWeight: FontWeight.bold,
-                ),
                ),
-        ),
+              ),
+             ),
             ),
       body: Padding(
         padding: EdgeInsets.all(16),
@@ -60,10 +60,9 @@ class _MainScreenState extends State<MainScreen> {
           backgroundColor: Colors.deepPurpleAccent,
           indicatorColor: Colors.white,       
           surfaceTintColor: Color.fromARGB(255, 245, 245, 245),
-          
           destinations: [
-            NavigationDestination(icon: Icon(Icons.home, color: Colors.black,), label: 'Pictures', ),
-            NavigationDestination(icon: Icon(Icons.person, color: Colors.black,), label: 'About',)
+            NavigationDestination(icon: Icon(Icons.home, color: Colors.black,), label: 'Pictures'),
+            NavigationDestination(icon: Icon(Icons.person, color: Colors.black,), label: 'About'),
      ],
     ),
    ),
