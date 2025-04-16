@@ -23,12 +23,15 @@ class _MainScreenState extends State<MainScreen> {
       backgroundColor: Colors.black,
       appBar: AppBar(
         backgroundColor: Colors.deepPurple,
-        title: Text('My image gallery',
-        style: TextStyle(
-          color: Colors.white,
-          fontWeight: FontWeight.bold,
-              ),
-             ),
+        title: Align(
+          alignment: Alignment.center,
+          child: Text('My image gallery',
+          style: TextStyle(
+            color: Colors.white,
+            fontWeight: FontWeight.bold,
+                ),
+               ),
+        ),
             ),
       body: Padding(
         padding: EdgeInsets.all(16),
