@@ -20,7 +20,7 @@ List<GalleryItem> galleryData = [
   GalleryItem(
     imgTitle: 'Sennebogen 818e', 
     imgDate: '30/05/2023', 
-    imgDescription: 'I still hold the record in that company for crushing a tesla under 50 seconds. Never worked with my shoes on, drove my supervisors mad', 
+    imgDescription: 'I still hold the record in that company for crushing a Tesla under 50 seconds. Never worked with my shoes on, drove my supervisors mad', 
     imgPath: 'assets/img/excavator1_300523.jpg'),
 
   GalleryItem(
